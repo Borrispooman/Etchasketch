@@ -1,16 +1,29 @@
-.box {border: 1px;
-    border-style: solid;
-    background-color: aliceblue;
-    padding: 5px;}
-
-
-#gridContainer {
-    
+#grid {
     display: flex;
-}
+    flex-wrap: wrap;
+    width: 600px;
+    border: 1px solid #ccc;
+  }
+  
+  .box {
+    border: 1px solid #000;
+    box-sizing: border-box;
+  }
 
-.mainContainer {
+.gridContainer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    width: 880px;
+    height: 600px;
 }
+
+.gridColumn{
+    height: auto;
+    width: auto;
+
+    flex: 1 0 auto;
+}
+
+
+
