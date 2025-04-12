@@ -1,0 +1,16 @@
+.box {border: 1px;
+    border-style: solid;
+    background-color: aliceblue;
+    padding: 5px;}
+
+
+#gridContainer {
+    
+    display: flex;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
